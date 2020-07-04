@@ -89,7 +89,7 @@ function datosRedis(datos) {
     ultimo['nombre'] = str_ultimo[0];
     ultimo['departamento'] = str_ultimo[1];
     ultimo['edad'] = str_ultimo[2];
-    ultimo['forma de contagio'] = str_ultimo[3];
+    ultimo['forma'] = str_ultimo[3];
     ultimo['estado'] = str_ultimo[4];
 
     const edades_dict = {};
