@@ -45,7 +45,7 @@ router.get('/data', async (req, res) => {
                     nombre: '',
                     departamento: '',
                     edad: '',
-                    'forma de contagio': '',
+                    'forma': '',
                     estado: ''
                 },
                 edades: {
