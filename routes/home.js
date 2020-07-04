@@ -37,21 +37,15 @@ router.get('/data', async (req, res) => {
         } else {
             res.json({
                 top3: [],
-                departamentos: {
-                    labels: [],
-                    datasets: []
-                },
+                departamentos: [],
                 ultimo: {
                     nombre: '',
                     departamento: '',
                     edad: '',
-                    'forma': '',
+                    forma: '',
                     estado: ''
                 },
-                edades: {
-                    labels: [],
-                    datasets: []
-                },
+                edades: [],
                 datos: [],
                 numero: 0
             });
